@@ -1,0 +1,165 @@
+/*
+Theme Name: PaperApp
+
+Layout: Lays.css
+
+*/
+
+/* modern clearfix */
+.cf:before, .cf:after {
+    content: "" !important;
+    display: table !important;
+    line-height: 0 !important;
+}
+.cf:after {
+    clear: both !important;
+}
+
+.api-post-container {
+    /*min-height: 100vh;*/
+    padding: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    color: #333;
+}
+.api-post-title{
+    font: 2.0rem 'Impact', 'sans-serif';
+    color: #5759ab;
+    line-height: 2.4rem;
+}
+.api-post-meta {
+    font-size: 0.95rem;
+    margin: 0;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 0.5rem;
+    font-family: courier, monospace;
+    color: peru;
+    font-variant: small-caps;
+}
+.api-post-meta-author {
+    color: #333;
+    font-size: 2.5vh;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.post-likes, .post-dislikes{
+    color: red;
+    cursor: pointer !important;
+}
+.post-likes>i.fa-thumbs-up:hover{
+    color: limegreen;
+}
+
+.post-dislikes>i.fa-thumbs-down:hover{
+    color: darkslategrey;
+}
+
+.post-likes>i.fa-thumbs-up{
+    color: #7BAC48;
+}
+
+.post-dislikes>i.fa-thumbs-down{
+    color: #b1b1b1;
+}
+#pl, #pd {
+    font-family: cursive;
+    font-size: small;
+}
+
+.api-post-content {
+    padding: 1rem;
+    margin: 0.45rem auto;
+    background-color: #fafafa;
+    color: #0e101d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    border-bottom: 0.25rem solid darkgoldenrod;
+    font-size: 16px;
+    line-height: 1.6rem;
+    box-shadow: 0 1px 0 rgba(200,215,225,0.5), 0 1px 2px #e9eff3;
+}
+
+#prev,#next {
+    padding: 1rem;
+    background-color: royalblue;
+    border: 0;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer !important;
+    font-family: "Impact", sans-serif;
+}
+
+#prev:hover,
+#prev:focus,
+#next:hover,
+#next:focus {
+    cursor: pointer;
+    background-color: #DE4149;
+
+}
+
+/* # Footer */
+
+#colophon {
+    background-color: goldenrod;
+    clear: both;
+    clear-after: both;
+    border-bottom: 0.5rem solid #ca6503;
+}
+
+#left_foot,#right_foot {
+    padding: 1rem;
+    border: 0;
+    color: #333;
+    font-size: 0.9rem;
+    font-family: "Courier", monospace;
+    font-weight: 600;
+}
+
+#left_foot {
+    float: left;
+}
+#right_foot{
+    float: right;
+}
+
+#right_foot a {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+#coll1 {
+    color: oldlace;
+}
+
+/* Header */
+.site-branding {
+    border-top: 0.5rem solid #eae6e6;
+    border-bottom: 0.5rem solid #eae6e6;
+    background-color: transparent;
+    box-shadow: 0 2px 0 rgba(200,215,225,0.5), 0 1px 2px #e9eff3;
+    margin-bottom: 2px;
+}
+
+.site-title {
+    text-align: center;
+    font-family: Impact, sans-serif;
+    font-variant: small-caps;
+    font-size: 2rem;
+    margin: 0.2rem;
+    font-weight: 100;
+    letter-spacing: 10px;
+    background-color: beige;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: #7f88a2 !important;
+}
+
+/*
+* {
+    border:1px solid blue !important;
+}*/
